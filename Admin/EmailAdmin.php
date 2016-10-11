@@ -88,7 +88,6 @@ class EmailAdmin extends Admin
                     'headers',
                     'sonata_type_native_collection',
                     array(
-                        'type'         => HeaderType::class,
                         'allow_add'    => true,
                         'allow_delete' => true,
                     )
